@@ -13,9 +13,11 @@
         "php": "^8.2",
         "laravel/framework": "^12.0",
         "laravel/tinker": "^2.10.1",
+        "mallardduck/blade-lucide-icons": "^1.23",
         "marcorieser/statamic-livewire": "^4.1",
         "marcorieser/tailwind-merge-statamic": "^1.1",
-        "statamic/cms": "^5.0"
+        "statamic/cms": "^5.0",
+        "stillat/antlers-components": "^2.5"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.8.1",
