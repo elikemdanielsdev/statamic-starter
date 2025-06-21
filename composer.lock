@@ -2955,16 +2955,16 @@
         },
         {
             "name": "marcorieser/statamic-livewire",
-            "version": "v4.5.1",
+            "version": "v4.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/marcorieser/statamic-livewire.git",
-                "reference": "74a20814f56103f8f4eba3da4802243c425279b6"
+                "reference": "1dfef719dc45562cd4a60a0e7289d63e45d7eb0e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/marcorieser/statamic-livewire/zipball/74a20814f56103f8f4eba3da4802243c425279b6",
-                "reference": "74a20814f56103f8f4eba3da4802243c425279b6",
+                "url": "https://api.github.com/repos/marcorieser/statamic-livewire/zipball/1dfef719dc45562cd4a60a0e7289d63e45d7eb0e",
+                "reference": "1dfef719dc45562cd4a60a0e7289d63e45d7eb0e",
                 "shasum": ""
             },
             "require": {
@@ -2988,7 +2988,7 @@
                 },
                 "statamic": {
                     "name": "Livewire",
-                    "description": "A Laravel Livewire integration for Statamics Antlers engine"
+                    "description": "A Laravel Livewire integration for Statamic."
                 }
             },
             "autoload": {
@@ -3010,7 +3010,7 @@
                     "homepage": "https://jonassiewertsen.com"
                 }
             ],
-            "description": "A Laravel Livewire integration for Statamics Antlers engine.",
+            "description": "A Laravel Livewire integration for Statamic.",
             "keywords": [
                 "addon",
                 "laravel",
@@ -3020,7 +3020,7 @@
             "support": {
                 "docs": "https://github.com/marcorieser/statamic-livewire",
                 "issues": "https://github.com/marcorieser/statamic-livewire/issues",
-                "source": "https://github.com/marcorieser/statamic-livewire/tree/v4.5.1"
+                "source": "https://github.com/marcorieser/statamic-livewire/tree/v4.5.2"
             },
             "funding": [
                 {
@@ -3028,7 +3028,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-05-26T08:32:01+00:00"
+            "time": "2025-06-02T14:12:35+00:00"
         },
         {
             "name": "marcorieser/tailwind-merge-statamic",
@@ -5124,16 +5124,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v5.57.0",
+            "version": "v5.58.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "eba307923eb5fe9ce7b0954bf6ceecc0357be8c1"
+                "reference": "c2c5ccd8efdf106f7c3563a037355dcfb595de3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/eba307923eb5fe9ce7b0954bf6ceecc0357be8c1",
-                "reference": "eba307923eb5fe9ce7b0954bf6ceecc0357be8c1",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/c2c5ccd8efdf106f7c3563a037355dcfb595de3a",
+                "reference": "c2c5ccd8efdf106f7c3563a037355dcfb595de3a",
                 "shasum": ""
             },
             "require": {
@@ -5218,7 +5218,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v5.57.0"
+                "source": "https://github.com/statamic/cms/tree/v5.58.0"
             },
             "funding": [
                 {
@@ -5226,7 +5226,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-06-04T17:04:56+00:00"
+            "time": "2025-06-20T14:19:24+00:00"
         },
         {
             "name": "statamic/stringy",
