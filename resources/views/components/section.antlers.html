@@ -1,5 +1,4 @@
-{{ if tag == "section" || tag == "footer"
- || tag == "header" }}
+{{ if tag == "section" || tag == "footer" || tag == "header" }}
     <{{ tag }} class="{{ 'px-5 py-8 {class}' | tw_merge }}">
         {{ slot }}
     </{{ tag }}>
