@@ -1,6 +1,8 @@
 {{ partial:components/section tag="header" }}
   {{ partial:components/container class="flex justify-between items-center" }}
-    <h1 class="text-2xl font-bold">{{ site:name }}</h1>
+    <h1 class="text-2xl font-bold">
+      <a wire:navigate href="{{ site:url }}">{{ site:name }}</a>
+    </h1>
     {{ if nav:header }}
       <nav>
         <ul class="flex gap-4">
@@ -10,6 +12,8 @@
           {{ /nav:header }}
         </ul>
       </nav>
+    {{ else }}
+      <p class="text-sm text-gray-500">No header navigation defined.</p>
     {{ /if }}
   {{ /partial:components/container }}
 {{ /partial:components/section }}
