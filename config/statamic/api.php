@@ -15,16 +15,16 @@ return [
     |
     */
 
-    'enabled' => env('STATAMIC_API_ENABLED', true),
+    'enabled' => env('STATAMIC_API_ENABLED', false),
 
     'resources' => [
-        'collections' => true,
-        'navs' => true,
-        'taxonomies' => true,
-        'assets' => true,
-        'globals' => true,
-        'forms' => true,
-        'users' => true,
+        'collections' => false,
+        'navs' => false,
+        'taxonomies' => false,
+        'assets' => false,
+        'globals' => false,
+        'forms' => false,
+        'users' => false,
     ],
 
     'route' => env('STATAMIC_API_ROUTE', 'api'),
