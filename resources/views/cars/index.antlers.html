@@ -1,0 +1,13 @@
+{{ partial:components/section }}
+  {{ partial:components/container }}
+    <h1 class="text-7xl font-bold">{{ site:name }}</h1>
+    {{ collection:cars }}
+      <div class="mt-4">
+        <h2 class="text-2xl font-semibold">
+          <a href="{{ url }}" wire:navigate>{{ title }}</a>
+        </h2>
+        <p class="mt-1 text-lg">{{ description }}</p>
+      </div>
+    {{ /collection:cars }}
+  {{ /partial:components/container }}
+{{ /partial:components/section }}
