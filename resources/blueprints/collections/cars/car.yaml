@@ -26,6 +26,38 @@ tabs:
               remove_empty_nodes: false
               type: bard
               display: Description
+              sets:
+                common:
+                  display: Common
+                  icon: align-object-center
+                  sets:
+                    alert:
+                      display: Alert
+                      icon: alert-warning-exclamation-mark
+                      fields:
+                        -
+                          handle: title
+                          field:
+                            type: text
+                            display: Title
+                        -
+                          handle: message
+                          field:
+                            type: text
+                            display: Message
+                    region:
+                      display: Region
+                      icon: globe-world-wide-web
+                      fields:
+                        -
+                          handle: country
+                          field:
+                            dictionary:
+                              type: countries
+                              emojis: true
+                            type: dictionary
+                            display: Country
+                            max_items: 1
   sidebar:
     display: Sidebar
     sections:

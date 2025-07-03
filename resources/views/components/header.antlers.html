@@ -3,17 +3,13 @@
     <h1 class="text-2xl font-bold">
       <a wire:navigate href="{{ site:url }}">{{ site:name }}</a>
     </h1>
-    {{ if nav:header }}
-      <nav>
-        <ul class="flex gap-4">
-          {{ nav:header }}
-            <li><a wire:navigate class="{{ is_current ? 'font-bold underline' : '' }}"
-                href="{{ url }}">{{ title }}</a></li>
-          {{ /nav:header }}
-        </ul>
-      </nav>
-    {{ else }}
-      <p class="text-sm text-gray-500">No header navigation defined.</p>
-    {{ /if }}
+    <nav>
+      <ul class="flex gap-4">
+        {{ nav:header }}
+          <li><a wire:navigate class="{{ is_current ? 'font-bold underline' : '' }}" href="{{ url }}">{{ title }}</a>
+          </li>
+        {{ /nav:header }}
+      </ul>
+    </nav>
   {{ /partial:components/container }}
 {{ /partial:components/section }}
