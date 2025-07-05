@@ -13,17 +13,31 @@ tabs:
               validate:
                 - required
           -
-            handle: content
+            handle: page_builder
             field:
-              type: markdown
-              display: Content
-              localizable: true
-          -
-            handle: template
-            field:
-              type: template
-              display: Template
-              localizable: true
+              collapse: true
+              button_label: 'Add Block'
+              type: replicator
+              display: 'Page Builder'
+              sets:
+                content_blocks:
+                  display: 'Content Blocks'
+                  icon: layout-header-sidebar-right
+                  sets:
+                    hero:
+                      display: Hero
+                      icon: align-object-top
+                      fields:
+                        -
+                          handle: title
+                          field:
+                            type: text
+                            display: Title
+                        -
+                          handle: subtitle
+                          field:
+                            type: text
+                            display: Subtitle
   sidebar:
     display: Sidebar
     sections:
@@ -43,3 +57,12 @@ tabs:
               default: now
               validate:
                 - required
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - pages
+              max_items: 1
+              listable: false
+              localizable: true
