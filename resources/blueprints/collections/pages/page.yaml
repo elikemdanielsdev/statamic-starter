@@ -38,6 +38,17 @@ tabs:
                           field:
                             type: text
                             display: Subtitle
+                    cars:
+                      display: Cars
+                      icon: file-content-list
+                      fields:
+                        -
+                          handle: cars
+                          field:
+                            collections:
+                              - cars
+                            type: entries
+                            display: Cars
   sidebar:
     display: Sidebar
     sections:
