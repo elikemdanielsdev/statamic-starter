@@ -43,12 +43,12 @@ tabs:
                       icon: file-content-list
                       fields:
                         -
-                          handle: cars
+                          handle: select_cars
                           field:
                             collections:
                               - cars
                             type: entries
-                            display: Cars
+                            display: 'Select Cars'
   sidebar:
     display: Sidebar
     sections:
